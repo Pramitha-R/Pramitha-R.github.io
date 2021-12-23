@@ -224,18 +224,72 @@ header .navbar ul li a:hover{
     width: 27rem;
     margin: 4rem 1rem;
     padding-left: 4rem;
-    border-left: 2rem solid #fff;
+    border-left: .2rem solid #fff;
     position: relative;
-
 }
 .education .box-contain .box span{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     background: #222;
     color: #fff;
     border-radius: 5rem;
+    padding: .5rem 2.5rem;
+}
+
+.education .box-contain .box h3{
+    font-size: 2rem;
+    color: #eee;
+    padding-top: 1.5rem;
+}
+.education .box-contain .box p{
+    font-size: 1.4rem;
+    color: #eee;
+    padding-top: 1rem 0;
+}
+.education .box-contain .box i{
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--green);
 }
 
 
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .row .content{
+    flex: 1 1 30rem;
+    padding: 4rem;
+    padding-bottom: 0;
+}
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+    font-weight: normal;
+
+}
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color: var(--green);
+}
 
 
 
@@ -295,5 +349,8 @@ header .navbar ul li a:hover{
     .about .row .counter .box{
         width: 100%;
     }
-    
+    .education .box-contain .box{
+        width: 100%;
+    }
 }
+
